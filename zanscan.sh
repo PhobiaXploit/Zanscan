@@ -19,7 +19,7 @@ echo "${f7} --------------------------${f1}Y888Y${f7}---------------------------
 echo "${f6} [${f3}WELCOME TO ZANSCAN${f6}]${f1}        Y"
 echo "${f6}             [${f1}1${f6}]${f4} RCE SCANNER${f6}   [${f1}4${f6}]${f4} TAKE OVER SCANNER"
 echo "${f6}             [${f1}2${f6}]${f4} LFI SCANNER${f6}   [${f1}5${f6}]${f4} ADMIN PAGE SCANNER"
-echo "${f6}             [${f1}3${f6}]${f4} LFI SCANNER${f6}   [${f1}6${f6}]${f4} SHELL BACKDOOR SCANNER"
+echo "${f6}             [${f1}3${f6}]${f4} RFI SCANNER${f6}   [${f1}6${f6}]${f4} SHELL BACKDOOR SCANNER"
 
 saved="result.txt"
 con=1
