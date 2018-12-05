@@ -11,7 +11,7 @@ What is in the Zanscan tool?
 4) TAKEOVER SCANNER
 5) ADMIN PAGE SCANNER
 6) SHELL BACKDOOR SCANNER
-Zanscan cooporate with a crascan tool
+Zanscan collaborates with a Crascan tool
 ```
 Github Link Crascan: <a href="http://github.com/aryanrtm/Crascan">http://github.com/aryanrtm/Crascan/</a>
 
