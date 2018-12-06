@@ -1,4 +1,5 @@
 #!/bin/bash
+#Copyright 2018 Crascan - Zanscan
 
 clear
 f=3 b=4s
